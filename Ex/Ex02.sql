@@ -81,7 +81,7 @@ select first_name,
 from employees
 where department_id = 100;
 
---substr(컬럼명, 시자가위치, 글자수)
+--substr(컬럼명, 시작위치, 글자수)
 select substr('abcdefg', 3, 3)
 from dual;
 
