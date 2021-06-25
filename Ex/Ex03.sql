@@ -153,3 +153,21 @@ select employee_id,
             salary
        ) as rSalary
 from employees;
+
+/*join*/ --★★★★★
+select *
+from employees;
+
+select *
+from departments;
+
+select first_name,
+       hire_date,
+       department_name,
+       em.manager_id
+from employees em, departments de
+where em.department_id = de.department_id;
+
+select first_name,
+       department_name
+from employees em, departments de;
