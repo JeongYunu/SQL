@@ -160,7 +160,7 @@ select sysdate,
        to_char(sysdate, 'MON') 월, --윈도우는 한글 유닉스는 영어
        to_char(sysdate, 'MONTH') 월,
        to_char(sysdate, 'DD') 일,
-       to_char(sysdate, 'DAY') 일, --윈도우는 한글 유닉스는 영어
+       to_char(sysdate, 'DAY') 요일, --윈도우는 한글 유닉스는 영어
        to_char(sysdate, 'HH') 시,
        to_char(sysdate, 'HH24') 시, --24시간 형식
        to_char(sysdate, 'MI') 분,
