@@ -30,7 +30,8 @@ select first_name,
        salary
 from employees
 where manager_id is not null
-and commission_pct is null;
+and commission_pct is null
+and salary > 3000;
 
 /*
 문제4. 최고월급이 10000 이상이 업무의 이름과 최고월급을 최고월급의 내림차순으로
